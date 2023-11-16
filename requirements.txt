@@ -1,0 +1,6 @@
+transformers==4.27.2
+datasets==2.11.0
+pandas
+peft==0.3.0
+loralib==0.1.1
+sentencepiece
