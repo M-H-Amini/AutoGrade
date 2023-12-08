@@ -39,6 +39,8 @@ for i, row in tqdm(df_anwers.iterrows(), total=len(df_anwers)):
     grade, detail = grader.grade(answer, points, weights=weights, verbose=False)
     df_res.loc[i] = [student_id] + [g for g, _ in detail] + [grade]
 
+df_res['Student ID'] = df_res['Student ID'].astype(int)
+
 ##  Saving the output...
 if args.output is None:
     args.output = os.path.splitext(args.answers)[0] + '_graded.csv'
