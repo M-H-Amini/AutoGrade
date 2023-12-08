@@ -1,6 +1,6 @@
 #  AutoGrade
 
-<img src="stuff/AutoGrade.png" width="500">
+<img src="stuff/AutoGrade.png" width="1200">
 
 ## 1. Introduction
 This tool is designed to be a simple, easy to use, and easy to extend autograder for assignments or exams. It is designed to help TAs and instructors grade assignments and exams. It is not designed to be a replacement for a human grader, but rather to help the grader by automating the tedious parts of grading. 
